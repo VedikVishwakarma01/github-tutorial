@@ -1,0 +1,25 @@
+1. create a repository - copy its code(https link)
+
+2. go to git folder and open cmd
+
+3. in cmd give commands - git init
+                          git clone (paste https link)
+
+
+4. to pull data from (repository)main or any branch  - git pull origin main
+
+5. to push or transfer data from machine to git use commands (this is called checkin) - 
+                                                                              git add .
+                                                                              git commit -m ""
+                                                                              git push 
+
+
+6. to create branch -  go to git folder which you have cloned then open cmd and enter command "git checkout -b 'branch name'" and thats how a branch creates.
+
+7. to push data to the branch created - use git command -
+
+                                                          git checkout -b (branch name)
+                                                          git add .
+                                                          git commit -m ""
+                                                          git push 
+
